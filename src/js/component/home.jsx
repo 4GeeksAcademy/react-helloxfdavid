@@ -62,9 +62,7 @@ const navbar ={
 		labelRadio:"Radio"
 	}
 
-const imagen ={
-		imagenUrl:"https://valenciaplaza.com/public/Image/2018/1/Foto1mosaicorecoilacionesdance_NoticiaAmpliada.jpg"
-}
+
 //create your first component
 const Home = () => {
 	return (
@@ -74,7 +72,7 @@ const Home = () => {
 			<div className="container">					
 				<Jumbotron props={jumbotronDatos}/>	
 			</div>
-			<div className="container d-flex justify-content-center">	
+			<div className="container p-4">	
 				<Card props={cartasData}/>			
 			</div>
 			

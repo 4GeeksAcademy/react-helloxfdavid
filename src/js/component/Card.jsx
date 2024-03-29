@@ -6,9 +6,10 @@ import React from "react";
 const Card = ({ props }) => {
   return (
     <>
-      <div className="container row">
+      <div className="container row m-auto
+      ">
         {props.map((objeto, index) => (
-          <div key={index} className="card m-2 border border-solid border-dark" style={{ width: "16rem" }}>
+          <div key={index} className="card m-4 border border-solid border-dark" style={{ width: "16rem" }}>
             <img src={objeto.imagenCarta} className="card-img-top m-auto mt-2" alt="..." style={{ width: "180px", height: "180px", objectFit: "cover" }} />
             <div className="card-body">
               <h5 className="card-title text-center">{objeto.tituloCarta}</h5>
